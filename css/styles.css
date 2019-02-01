@@ -8,12 +8,19 @@ h2{
 }
 .weather-container{
     display: inline-block;
-    padding-left: 12%;    
+    margin: 0 auto;  
     text-align: center;
 }
+.current{
+    text-align: center;
+    margin: 0 auto;
+}
 .prev{
-    float: left;
-    padding: 0 auto;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
 }
 .wheater{
     font-size: 22px;
